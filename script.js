@@ -1,9 +1,6 @@
 /*
-This version is fully responsive, visually appealing, and interactive. You can now:
-
+ You can now:
 Add real images for your products.
-
-Push this to GitHub and link it to your portfolio.
 
 Later, you can add contact forms, project sections, or even a cart functionality.
 
@@ -18,13 +15,13 @@ Later, you can add contact forms, project sections, or even a cart functionality
 // DATA
 // =======================
 const products = [
-  { id: 1, title: "Wireless Headphones", category: "Audio", price: 99, image: "https://via.placeholder.com/300x150?text=Headphones" },
-  { id: 2, title: "Mechanical Keyboard", category: "Accessories", price: 129, image: "https://via.placeholder.com/300x150?text=Keyboard" },
-  { id: 3, title: "Smart Watch", category: "Wearables", price: 199, image: "https://via.placeholder.com/300x150?text=Smart+Watch" },
-  { id: 4, title: "Bluetooth Speaker", category: "Audio", price: 79, image: "https://via.placeholder.com/300x150?text=Speaker" },
-  { id: 5, title: "Mobile Phone", category: "Electronics", price: 160, image: "https://via.placeholder.com/300x150?text=Phone" },
-  { id: 6, title: "Laptop", category: "Electronics", price: 600, image: "https://via.placeholder.com/300x150?text=Laptop" },
-  { id: 7, title: "Mouse", category: "Accessories", price: 30, image: "https://via.placeholder.com/300x150?text=Mouse" },
+  { id: 1, title: "Wireless Headphones", category: "Audio", price: 99, image: "images/headphones.jpg" },
+  { id: 2, title: "Mechanical Keyboard", category: "Accessories", price: 129, image: "images/mechanical-keyboard.jpg" },
+  { id: 3, title: "Smart Watch", category: "Wearables", price: 199, image: "images/smart-watch.jpg" },
+  { id: 4, title: "Bluetooth Speaker", category: "Audio", price: 79, image: "images/bluetooth-speaker.jpg" },
+  { id: 5, title: "Mobile Phone", category: "Electronics", price: 160, image: "images/mobile-phone.jpg" },
+  { id: 6, title: "Laptop", category: "Electronics", price: 600, image: "images/laptop.jpg" },
+  { id: 7, title: "Mouse", category: "Accessories", price: 30, image: "images/computer-mouse.jpg" },
 ];
 
 // =======================
