@@ -1,78 +1,58 @@
-  <!--Goal of this project is to improve myself as a developer in 14 days and try to land a job after it--> 
-    <!-- 
-    Product listing
-    Filters
-    Search
-    Sorting
-    Modal details
-    responsive 
-
-    Day 1
-
-Project setup (HTML/CSS/JS)
-
-Layout structure - Done
-
-Mobile-first design - Done
-
-Navbar + product grid - Done
-
-
-    -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Product Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechBurstHub Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Header / Navbar -->
   <header class="header">
     <nav class="nav">
-        <button class="menu-btn">☰</button>
-        <h1 class="logo">TechHub</h1>
+      <div class="logo">TechBurstHub</div>
+      <button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
-<main class="main">
-    <input 
-    type="text"
-    id="search"
-    placeholder="Search products..."
-    >
-    <select name="category" id="category">
-        <option value="All">All Categories</option>
-        <option value="Audio">Audio</option>
-        <option value="Accessories">Accessories</option>
-        <option value="Wearables">Wearables</option>
-        <option value="Electronics">Electronics</option>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h1>Welcome to TechBurstHub</h1>
+    <p>Your go-to place for the latest tech gadgets!</p>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters">
+    <input type="text" id="search" placeholder="Search products...">
+    <select id="category">
+      <option>All</option>
+      <option>Audio</option>
+      <option>Accessories</option>
+      <option>Wearables</option>
+      <option>Electronics</option>
     </select>
     <select id="sort">
-        <option value="">Sort by</option>
-        <option value="price-asc">Price: Low → High</option>
-        <option value="price-desc">Price: High → Low</option>
+      <option value="default">Default</option>
+      <option value="price-asc">Price Low → High</option>
+      <option value="price-desc">Price High → Low</option>
     </select>
-    <section class="products">
-        <div class="product-card">
-            <h2>Product 1</h2>
-            <p>Short description</p>
-        </div>
-        <div class="product-card">
-            <h2>Product 2</h2>
-            <p>Short description</p>
-        </div>
-        <div class="product-card">
-            <h2>Product 3</h2>
-            <p>Short description</p>
-        </div>
-    </section>
-</main>
+  </section>
 
-<footer class="footer">
-<p>© 2025 TechHub</p>
-</footer>
+  <!-- Products Grid -->
+  <main class="main">
+    <div class="products" id="products"></div>
+  </main>
 
-<script src="script.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 TechBurstHub. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
