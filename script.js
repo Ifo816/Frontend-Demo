@@ -1,3 +1,19 @@
+/*
+This version is fully responsive, visually appealing, and interactive. You can now:
+
+Add real images for your products.
+
+Push this to GitHub and link it to your portfolio.
+
+Later, you can add contact forms, project sections, or even a cart functionality.
+
+*/
+
+
+
+
+
+
 // =======================
 // DATA
 // =======================
