@@ -13,6 +13,9 @@ Later, you can add contact forms, project sections, or even a cart functionality
   box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: system-ui, sans-serif;
   background-color: #f5f5f5;
@@ -22,6 +25,9 @@ body {
 
 /* ===== Header / Navbar ===== */
 .header {
+  position: sticky;
+  top:0;
+  z-index: 1000;
   background-color: #111;
   color: white;
 }
