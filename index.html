@@ -1,8 +1,6 @@
 <!--
  You can now:
-Add real images for your products.
 Later, you can add contact forms, project sections, or even a cart functionality.
-
 -->
 
 <!DOCTYPE html>
@@ -54,7 +52,21 @@ Later, you can add contact forms, project sections, or even a cart functionality
   <main class="main">
     <div class="products" id="products"></div>
   </main>
+<!--Contact Form-->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mlgeygjj" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
   <!-- Footer -->
   <footer class="footer">
     &copy; 2025 TechBurstHub. All rights reserved.

@@ -1,7 +1,5 @@
 /*
  You can now:
-Add real images for your products.
-
 Later, you can add contact forms, project sections, or even a cart functionality.
 
 */
@@ -131,3 +129,18 @@ categorySelect.addEventListener("change", updateProducts);
 sortSelect.addEventListener("change", updateProducts);
 
 loadProducts();
+
+
+/*Form update event listener
+
+const contactForm = document.querySelector(".contact form");
+
+contactForm.addEventListener("submit", function(e){
+  //Optional: prevent default only if you want a custom thank-you message
+  //e.preventDefault();
+
+  //Reset the form fields
+  contactForm.reset();
+
+ 
+})*/
