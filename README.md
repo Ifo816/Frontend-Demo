@@ -1,5 +1,5 @@
 
-# TechBurstHub Frontend Demo
+# Techgadgets Frontend Demo
 
 **Demo project showcasing a simple tech gadgets storefront built with HTML, CSS, and JavaScript.**
 
