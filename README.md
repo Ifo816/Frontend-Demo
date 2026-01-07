@@ -1,6 +1,6 @@
 # Techgadgets Frontend Demo
 
-**Live Demo:** [https://yourproject.netlify.app](https://yourproject.netlify.app)
+**Live Demo:** [https://yourproject.netlify.app]([https://yourproject.netlify.app](https://demoproductlandingpage.netlify.app/#products))
 
 A simple tech gadgets storefront showcasing **responsive design, interactive UI, and DOM manipulation** using HTML, CSS, and JavaScript.
 
